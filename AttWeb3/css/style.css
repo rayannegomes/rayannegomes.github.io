@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+}
+
+.icon-industria{
+    color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+
+.menu-cont{
+    width: 100%;
+    justify-content: space-between
+}
+
+.menu-cont a.active-menu-link{
+    background-color: rgb(0, 0, 0);
+}
+
+.menu-cont a{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: 0.8s;
+}
+
+.menu-cont a:hover{
+    color: rgb(253, 93, 0);
+}
+
+section.main{
+    position: relative;
+    min-height: 800px;
+    background-image: url("https://blog.mercadoe.com/wp-content/uploads/2019/04/bigstock-Industrial-Cyber-Physical-262193905-e1581444961296-1536x676.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-home{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    right: 150px;
+    top: 250px;
+    text-shadow: 2px 1px 8px black;
+}
+
+.text-home h1{
+    font-size: 65px;
+    text-align: right;
+}
+.text-home h3{
+    font-size: 15px;
+    text-align: center;
+}
+
+section.tech-chaves{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+section.tech-chaves h3{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.block-one, .block-center{
+    text-align: center;   
+}
+
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.block-one, .block-center{
+    width: 300px;
+    margin: 0 10px;
+    float: center;
+    box-sizing: border-box; /* Inclui a borda e o padding na largura definida */
+    padding: 10px;
+
+}
+
+.block-one h3, .block-center h3{
+    text-align: center;
+    background-color: black;
+    border: 1px dotted rgb(253, 93, 0);
+    padding: 8px;
+
+}
+
+.block-one p, .block-center p{
+    background-color: black;
+    padding: 8px;
+    color: rgb(173, 66, 4);
+}
+
+.blocks img{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+
+.vantagens {
+	background-color: #000000; /* Cor de fundo desejada */
+  }
+
+.carousel-caption {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+  }
+  
+
+.carousel-item img {
+	height: 400px;
+	object-fit: cover;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #000000;
+  }
+
+th, td {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1px;
+    border: 10px solid rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+
+
+
+/*pagina contato */
+
+
+.pagina-contato {
+    position: relative;
+    min-height: 800px;
+    background-image: url("https://abeinfobrasil.com.br/wp-content/uploads/2022/09/1-60-980x657.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+/* formulario */
+
+.h2-textcontato {
+	color: #ffffff;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	margin: 100px;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact-form {
+	width: 650px;
+	margin: -40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #6d6d6d;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+.form-row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+
+footer{
+    background-color: rgb(146, 66, 0);
+    text-align: center;
+    padding: 8px;
+    color: black;
+
+}
